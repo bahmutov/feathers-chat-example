@@ -13,7 +13,9 @@ exports.before = {
   create: [],
   update: [],
   patch: [],
-  remove: []
+  remove: [function remove(req) {
+    console.log('removing message', req.id)
+  }]
 };
 
 exports.after = {
