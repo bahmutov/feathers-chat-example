@@ -5,7 +5,7 @@ const {makeDOMDriver, h1} = require('@cycle/dom')
 // const feathers = require('feathers-client')
 // const socketio = require('feathers-socketio/client')
 const io = require('socket.io-client')
-const URL = 'http://localhost:3030'
+const URL = 'http://localhost:3040'
 // via feathers client
 const socket = io(URL)
 const app = feathers()

@@ -1,7 +1,6 @@
 {
   "host": "localhost",
-  "port": 3030,
-  "mongodb": "mongodb://localhost:27017/feathersChat",
+  "port": 3040,
   "public": "../public/",
   "auth": {
     "token": {

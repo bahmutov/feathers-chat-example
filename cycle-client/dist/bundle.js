@@ -51,7 +51,7 @@
 	// const feathers = require('feathers-client')
 	// const socketio = require('feathers-socketio/client')
 	const io = __webpack_require__(63)
-	const URL = 'http://localhost:3030'
+	const URL = 'http://localhost:3040'
 	// via feathers client
 	const socket = io(URL)
 	const app = feathers()
